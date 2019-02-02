@@ -6,4 +6,4 @@ if ch in lst:
 elif(ch=="$"):
 	print("invalid")
 else:
-	print("Consanant")
+	print("Consonant")
