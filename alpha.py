@@ -5,4 +5,4 @@ if(r>='a'):
 elif(r>='A'):
     print"Alphabet"
 else:
-    print"no"
+    print"No"
