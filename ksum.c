@@ -1,4 +1,3 @@
-#harini
 #include<stdio.h>
 int main()
 {
