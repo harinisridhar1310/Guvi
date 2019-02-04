@@ -1,4 +1,4 @@
 #harini
-N=input()
-k=input()
-print N**k
+x=raw_input()
+a,b=x.split()
+print (a**b)
