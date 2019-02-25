@@ -3,7 +3,7 @@ int main()
 {
 int n,i,count=0,j,k;
 char a[100],t;
-scanf("%[^\n]s",&a);
+scanf("%s",&a);
 for(i=0;a[i]!='\0';i++)
 {
 count++;
