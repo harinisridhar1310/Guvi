@@ -41,7 +41,7 @@ int main()
     {
         if(a[i]==' ')
         {
-            printf("");
+            printf(" ");
         }
         else
         {
