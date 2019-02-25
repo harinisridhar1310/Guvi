@@ -14,7 +14,7 @@ try:
 		elif(rom[i]=='C'):
 			a.append(100)
 		elif(rom[i]=='D'):
-			a.append(500
+			a.append(500)
 		elif(rom[i]=='M'):
 			a.append(1000)
 		elif(rom[i]=='V'):
