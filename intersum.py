@@ -1,7 +1,7 @@
 #harini
-N=raw_input()
-A=raw_input()
-D=raw_input()
+N=int(input())
+A=int(input())
+D=int(input())
 sum=0
 for i in range(1,N+1):
 	sum=sum+A
