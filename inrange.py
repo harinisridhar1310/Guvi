@@ -1,6 +1,6 @@
 #harini
 a=int(input())
 if a in range(1,10):
-	print("Yes")
+	print("yes")
 else:
-	print("No")
+	print("no")
