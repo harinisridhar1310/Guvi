@@ -1,7 +1,7 @@
 #harini
-a=input()
-c=0
-for i in a:
+a4=input()
+c1=0
+for i in a4:
     if(i.isnumeric())==True:
-        c=c+1
-print(c)
+        c1=c1+1
+print(c1)
