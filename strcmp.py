@@ -5,4 +5,4 @@ if(len(s)>len(k)):
 elif(len(s)<len(k)):
 	print(k)
 else:
-	print(s)
+	print(k)
