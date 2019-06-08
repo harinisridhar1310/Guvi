@@ -1,8 +1,6 @@
 #harini
-a=int(input())
-b=int(input())
-c=int(input())
-d=int(input())
-x=a-c
-y=b-d
-print x,y
+X,Y=map(int,input().split())
+B,A=map(int,input().split())
+Hour=abs(X-B)
+Min=abs(Y-A)
+print(Hour,Min)
