@@ -1,12 +1,12 @@
 #harini
-a=int(input())
-b=int(input())
+a1=int(input())
+b1=int(input())
 c=0
 while True:
-    a=a+1
-    if a%2==0:
+    a1=a1+1
+    if a1%2==0:
         d=0
-    elif a>=b:
+    elif a1>=b1:
         break
     else:
         c+=1
