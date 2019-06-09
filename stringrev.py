@@ -1,3 +1,3 @@
 #harini
-n=raw_input()
-print n[::-1]
+a=raw_input()
+print a[::-1]
