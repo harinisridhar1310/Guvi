@@ -1,7 +1,7 @@
 #harini
-n=input()
+a=input()
 num = 1
-while n >= 1:
-	num = num * n
-	n = n - 1
+while a >= 1:
+	num = num * a
+	a = a - 1
 print num
