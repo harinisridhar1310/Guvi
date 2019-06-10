@@ -1,9 +1,10 @@
 #harini
-a=int(input())
-b=list(map(int,input().split()))
-l=[]
-f=''
-for i in range(0,len(b)):
-	l.append(b[i])
-	f+=str(max(l))+' '
-print(f[::-1])
+a1,b1=map(int,input().split())
+input()
+Num=list(map(int,input().split()))
+k=list(map(int,input().split()))
+s=''
+for i in k:
+  Num.append(i)
+  s+=str(max(Num))+' '
+print(s[:-1])
