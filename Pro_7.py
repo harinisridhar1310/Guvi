@@ -6,4 +6,4 @@ for i in range(0,20):
         a = abs(pow(2,i)-nt)
         if a<=kt:
             kt=a
-print(kt
+print(kt)
