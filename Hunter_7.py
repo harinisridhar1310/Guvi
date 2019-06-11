@@ -1,10 +1,14 @@
 #harini
-a=int(input())
-b=list(map(int,input().split()))
-c=''
-for i in range(0,len(b)):
-	if((i%2==0 and b[i]%2!=0)or(i%2!=0 and b[i]%2==0)):
-		c=c+str(b[i])+" "
-	else:
-		i=i+1
-print(c)
+n=int(input())
+a = [int(y) for y in input().split()]
+for i in range(0,n):
+    if i<n-1:
+        b=' '
+    else:
+        b=''
+    if i%2==0:
+        if a[i]%2!=0:
+            print(a[i],end=b)
+    elif i%2!=0:
+        if a[i]%2==0:
+            print(a[i],end=b)
